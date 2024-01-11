@@ -3,8 +3,8 @@ package database
 
 import (
 	"errors"
-	"x-ci-cd/config"
-	"x-ci-cd/pkg/database/sqlite"
+	"github.com/nikita-voronoy/go-clean-arch/config"
+	"github.com/nikita-voronoy/go-clean-arch/pkg/database/sqlite"
 )
 
 // NewDatabase creates a new database connection based on the provided configuration.

@@ -3,12 +3,12 @@ package http
 
 import (
 	"fmt"
-	"github.com/labstack/echo/v4" // Echo is a high performance, extensible, minimalist web framework for Go.
+	"github.com/labstack/echo/v4"                                   // Echo is a high performance, extensible, minimalist web framework for Go.
+	"github.com/nikita-voronoy/go-clean-arch/config"                // Config package provides the functionality to interact with the configuration of the application.
+	"github.com/nikita-voronoy/go-clean-arch/internal/entities"     // Entities package provides the functionality to interact with the entities of the application.
+	"github.com/nikita-voronoy/go-clean-arch/internal/modules/auth" // Auth package provides the functionality to interact with the auth module.
 	"net/http"
 	"time"
-	"x-ci-cd/config"                // Config package provides the functionality to interact with the configuration of the application.
-	"x-ci-cd/internal/entities"     // Entities package provides the functionality to interact with the entities of the application.
-	"x-ci-cd/internal/modules/auth" // Auth package provides the functionality to interact with the auth module.
 )
 
 // AuthHandlers struct represents auth handlers that provide methods for handling HTTP requests for the auth module.

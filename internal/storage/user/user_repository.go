@@ -5,9 +5,9 @@ import (
 	"context"
 	"errors"
 	"github.com/google/uuid"
-	"x-ci-cd/internal/entities"
-	"x-ci-cd/internal/storage"
-	"x-ci-cd/pkg/database"
+	"github.com/nikita-voronoy/go-clean-arch/internal/entities"
+	"github.com/nikita-voronoy/go-clean-arch/internal/storage"
+	"github.com/nikita-voronoy/go-clean-arch/pkg/database"
 )
 
 // Repository struct represents a user repository that provides methods for user data operations.

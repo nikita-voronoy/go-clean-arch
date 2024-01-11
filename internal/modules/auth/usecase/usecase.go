@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"github.com/go-playground/validator/v10"
 	"github.com/google/uuid"
+	"github.com/nikita-voronoy/go-clean-arch/config"
+	"github.com/nikita-voronoy/go-clean-arch/internal/entities"
+	"github.com/nikita-voronoy/go-clean-arch/internal/modules/auth"
+	"github.com/nikita-voronoy/go-clean-arch/internal/storage"
 	"golang.org/x/crypto/bcrypt"
 	"time"
-	"x-ci-cd/config"
-	"x-ci-cd/internal/entities"
-	"x-ci-cd/internal/modules/auth"
-	"x-ci-cd/internal/storage"
 )
 
 // AuthUseCase struct represents a user authentication use case that provides methods for user authentication operations.

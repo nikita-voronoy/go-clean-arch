@@ -2,8 +2,8 @@
 package http
 
 import (
-	"github.com/labstack/echo/v4"   // Echo is a high performance, extensible, minimalist web framework for Go.
-	"x-ci-cd/internal/modules/auth" // Auth package provides the functionality to interact with the auth module.
+	"github.com/labstack/echo/v4"                                   // Echo is a high performance, extensible, minimalist web framework for Go.
+	"github.com/nikita-voronoy/go-clean-arch/internal/modules/auth" // Auth package provides the functionality to interact with the auth module.
 )
 
 // MapAuthRoutes maps the auth routes to the provided Echo group with the provided auth handlers.

@@ -3,10 +3,10 @@ package sqlite
 
 import (
 	"context"
+	"github.com/nikita-voronoy/go-clean-arch/config"
+	"github.com/nikita-voronoy/go-clean-arch/internal/entities"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-	"x-ci-cd/config"
-	"x-ci-cd/internal/entities"
 )
 
 // Database struct represents a SQLite database connection.

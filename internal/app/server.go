@@ -2,13 +2,13 @@
 package app
 
 import (
-	"context"                                // Context package provides the functionality to pass deadlines, cancel signals, and other request-scoped values across API boundaries and between processes.
-	"github.com/labstack/echo/v4"            // Echo is a high performance, extensible, minimalist web framework for Go.
-	"github.com/labstack/echo/v4/middleware" // Middleware package provides the functionality to use middleware with Echo.
-	"go.uber.org/fx"                         // Fx is a framework for Go that provides the tools needed to build a dependency graph and invoke components in the correct order.
-	"log"                                    // Log package provides the functionality to implement logging.
-	"strconv"                                // Strconv package provides the functionality to convert strings to basic data types.
-	"x-ci-cd/config"                         // Config package provides the functionality to interact with the configuration of the application.
+	"context"                                        // Context package provides the functionality to pass deadlines, cancel signals, and other request-scoped values across API boundaries and between processes.
+	"github.com/labstack/echo/v4"                    // Echo is a high performance, extensible, minimalist web framework for Go.
+	"github.com/labstack/echo/v4/middleware"         // Middleware package provides the functionality to use middleware with Echo.
+	"github.com/nikita-voronoy/go-clean-arch/config" // Config package provides the functionality to interact with the configuration of the application.
+	"go.uber.org/fx"                                 // Fx is a framework for Go that provides the tools needed to build a dependency graph and invoke components in the correct order.
+	"log"                                            // Log package provides the functionality to implement logging.
+	"strconv"                                        // Strconv package provides the functionality to convert strings to basic data types.
 )
 
 // NewServer creates a new Echo server with the provided lifecycle and configuration.

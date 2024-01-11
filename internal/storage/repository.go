@@ -4,7 +4,7 @@ package storage
 import (
 	"context"
 	"github.com/google/uuid"
-	"x-ci-cd/internal/entities"
+	"github.com/nikita-voronoy/go-clean-arch/internal/entities"
 )
 
 // UserRepository is an interface that defines the methods required for user data operations.

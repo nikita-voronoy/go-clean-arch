@@ -3,10 +3,10 @@ package sqlite
 import (
 	"context"
 	"github.com/google/uuid"
+	"github.com/nikita-voronoy/go-clean-arch/config"
+	"github.com/nikita-voronoy/go-clean-arch/internal/entities"
 	"testing"
 	"time"
-	"x-ci-cd/config"
-	"x-ci-cd/internal/entities"
 
 	"github.com/stretchr/testify/assert"
 )

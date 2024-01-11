@@ -2,12 +2,12 @@
 package module
 
 import (
-	"github.com/labstack/echo/v4"                 // Echo is a high performance, extensible, minimalist web framework for Go.
-	"go.uber.org/fx"                              // Fx is a framework for Go that provides the building blocks for your service architectures.
-	"x-ci-cd/internal/modules/auth/delivery"      // Delivery package provides the functionality to deliver the responses of the auth module.
-	"x-ci-cd/internal/modules/auth/delivery/http" // HTTP package provides the functionality to deliver the responses of the auth module over HTTP.
-	"x-ci-cd/internal/modules/auth/usecase"       // Usecase package provides the functionality to interact with the use cases of the auth module.
-	"x-ci-cd/internal/storage/user"               // User package provides the functionality to interact with the user storage.
+	"github.com/labstack/echo/v4"                                                 // Echo is a high performance, extensible, minimalist web framework for Go.
+	"github.com/nikita-voronoy/go-clean-arch/internal/modules/auth/delivery"      // Delivery package provides the functionality to deliver the responses of the auth module.
+	"github.com/nikita-voronoy/go-clean-arch/internal/modules/auth/delivery/http" // HTTP package provides the functionality to deliver the responses of the auth module over HTTP.
+	"github.com/nikita-voronoy/go-clean-arch/internal/modules/auth/usecase"       // Usecase package provides the functionality to interact with the use cases of the auth module.
+	"github.com/nikita-voronoy/go-clean-arch/internal/storage/user"               // User package provides the functionality to interact with the user storage.
+	"go.uber.org/fx"                                                              // Fx is a framework for Go that provides the building blocks for your service architectures.
 )
 
 // Module is a Fx options group that provides and invokes the necessary dependencies for the auth module.
