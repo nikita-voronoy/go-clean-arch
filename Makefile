@@ -6,18 +6,18 @@ GOCLEAN=$(GOCMD) clean
 GOTEST=$(GOCMD) test
 
 BINARY_NAME=server
-BINARY_PATH=cmd/server
+BINARY_PATH=./cmd/server
 
 all: test build
 
 build:
-	$(GOBUILD) -o $(BINARY_NAME) -v ./$(BINARY_PATH)
+	$(GOBUILD) -o $(BINARY_NAME) -v $(BINARY_PATH)
 
 run: build
 	./$(BINARY_NAME)
 
 debug: build
-	./$(BINARY_NAME) -debug
+	DEBUG=1 ./$(BINARY_NAME)
 
 test:
 	$(GOTEST) -v ./...
